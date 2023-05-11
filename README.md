@@ -11,7 +11,7 @@
 - ReactJs
 - TailwindCss
 - Framer-motion
-- **ThreeJs** with **@react-three/fiber** and **@react-three/drei**
+- `ThreeJs` with `@react-three/fiber` and `@react-three/drei`
 
 ### License :right_anger_bubble:
 
