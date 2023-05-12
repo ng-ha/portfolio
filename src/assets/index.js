@@ -21,6 +21,23 @@ import tailwind from './tech/tailwind.png';
 import typescript from './tech/typescript.png';
 import threejs from './tech/threejs.svg';
 
+import reactNative from './tech/react-native.png';
+import linux from './tech/linux.png';
+import signal from './signal.png';
+import tinder from './tinder.png';
+import deliveroo from './deliveroo.png';
+import uber from './uber.png';
+import ups from './ups.png';
+import foodApp from './food-app.png';
+import reddit from './reddit.png';
+import blogNext from './blog-nextjs.png';
+import learnIt from './learnit.png';
+import theBand from './the-band.png';
+import shopee from './shopee.png';
+import music from './music.png';
+import whatsapp from './whatsapp.png';
+import nvim from './dotfile.png';
+
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
@@ -59,4 +76,20 @@ export {
   carrent,
   jobit,
   tripguide,
+  reactNative,
+  linux,
+  signal,
+  tinder,
+  deliveroo,
+  uber,
+  ups,
+  foodApp,
+  reddit,
+  blogNext,
+  learnIt,
+  theBand,
+  shopee,
+  music,
+  whatsapp,
+  nvim,
 };
