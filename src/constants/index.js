@@ -33,16 +33,27 @@ import {
   whatsapp,
   nvim,
   tiktok,
+  marc,
+  thomas,
+  leonardo,
 } from '../assets';
 
 export const navLinks = [
+  {
+    id: 'github',
+    title: 'Github',
+  },
   {
     id: 'about',
     title: 'About',
   },
   {
-    id: 'work',
-    title: 'Work',
+    id: 'skills',
+    title: 'Skills',
+  },
+  {
+    id: 'projects',
+    title: 'Projects',
   },
   {
     id: 'contact',
@@ -177,28 +188,23 @@ const experiences = [
 
 const testimonials = [
   {
-    testimonial:
-      'I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.',
-    name: 'Sara Lee',
-    designation: 'CFO',
-    company: 'Acme Co',
-    image: 'https://randomuser.me/api/portraits/women/4.jpg',
+    testimonial: 'The only constant in technology industry is change.',
+    name: 'Marc Benioff',
+    designation: 'Executive Officer of Salesforce',
+    image: marc,
+  },
+
+  {
+    testimonial: 'Simplicity is the ultimate form of sophistication.',
+    name: 'Leonardo DaVinci',
+    designation: 'Polymath, Engineer, Scientist',
+    image: leonardo,
   },
   {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: 'Chris Brown',
-    designation: 'COO',
-    company: 'DEF Corp',
-    image: 'https://randomuser.me/api/portraits/men/5.jpg',
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: 'Lisa Wang',
-    designation: 'CTO',
-    company: '456 Enterprises',
-    image: 'https://randomuser.me/api/portraits/women/6.jpg',
+    testimonial: "I have not failed. I've just found 10,000 ways that won't work.",
+    name: 'Thomas Edison',
+    designation: 'Inventor, Businessman',
+    image: thomas,
   },
 ];
 
