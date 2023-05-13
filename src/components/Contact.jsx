@@ -18,33 +18,32 @@ const Contact = () => {
   const handleChange = (e) => setForm({ ...form, [e.target.name]: e.target.value });
   const handleSubmit = (e) => {
     e.preventDefault();
-    // setLoading(true);
-    // emailjs
-    //   .send(
-    //     import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
-    //     import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
-    //     {
-    //       from_name: form.name,
-    //       to_name: 'Nguyen Thanh Ha',
-    //       from_email: form.email,
-    //       to_email: 'ngthanhha.hn@gmail.com',
-    //       message: form.message,
-    //     },
-    //     import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
-    //   )
-    //   .then(
-    //     () => {
-    //       setLoading(false);
-    //       toast.success('Thank you! I will get back to you as soon as possible.');
-    //       setForm({ name: '', email: '', message: '' });
-    //     },
-    //     (error) => {
-    //       setLoading(false);
-    //       console.error(error);
-    //       toast.error('Oh, something went wrong. Please try again!');
-    //     }
-    //   );
-    toast.error('Oh, something went wrong. Please try again!');
+    setLoading(true);
+    emailjs
+      .send(
+        import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_APP_EMAILJS_TEMPLATE_ID,
+        {
+          from_name: form.name,
+          to_name: 'Nguyen Thanh Ha',
+          from_email: form.email,
+          to_email: 'ngthanhha.hn@gmail.com',
+          message: form.message,
+        },
+        import.meta.env.VITE_APP_EMAILJS_PUBLIC_KEY
+      )
+      .then(
+        () => {
+          setLoading(false);
+          toast.success('Thank you! I will get back to you as soon as possible.');
+          setForm({ name: '', email: '', message: '' });
+        },
+        (error) => {
+          setLoading(false);
+          console.error(error);
+          toast.error('Oh, something went wrong. Please try again!');
+        }
+      );
   };
 
   return (
