@@ -36,7 +36,7 @@ const Navbar = () => {
             >
               {link.id === 'github' ? (
                 <a href="https://github.com/ng-ha" target="_blank" rel="noopener noreferrer">
-                  {link.title}
+                  {link.title} - git
                 </a>
               ) : (
                 <a href={`#${link.id}`}>{link.title}</a>
