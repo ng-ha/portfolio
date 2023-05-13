@@ -32,6 +32,7 @@ import {
   music,
   whatsapp,
   nvim,
+  tiktok,
 } from '../assets';
 
 export const navLinks = [
@@ -169,7 +170,7 @@ const experiences = [
     points: [
       'IDE: Vim & VS Code',
       'Skills: git, docker',
-      'Write my own Neovim/Tmux IDE in Lua using NvChad preconfiguration',
+      'Write my own terminal-based Neovim IDE, powered by NvChad preconfiguration, written in Lua, integrated with Tmux multiplexer.',
     ],
   },
 ];
@@ -203,20 +204,20 @@ const testimonials = [
 
 const projects = [
   {
-    name: 'Signal',
+    name: 'Signal clone',
     description:
-      'Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.',
+      'A cross-platform chat app for instant messaging one-to-one or for group messaging with database and authentication from Firebase.',
     tags: [
       {
-        name: 'react',
+        name: 'reactnative',
         color: 'blue-text-gradient',
       },
       {
-        name: 'mongodb',
+        name: 'nativebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'tailwind',
+        name: 'firebase',
         color: 'pink-text-gradient',
       },
     ],
@@ -224,20 +225,20 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Tinder',
+    name: 'Tinder clone',
     description:
-      'Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.',
+      'Tinder is an online dating application. Users "swipe right" to like or "swipe left" to dislike other users\' profiles. If 2 users match, they can message with each other.',
     tags: [
       {
-        name: 'react',
+        name: 'reactnative',
         color: 'blue-text-gradient',
       },
       {
-        name: 'restapi',
+        name: 'tailwindcss',
         color: 'green-text-gradient',
       },
       {
-        name: 'scss',
+        name: 'expo',
         color: 'pink-text-gradient',
       },
     ],
@@ -245,20 +246,20 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Deliveroo',
+    name: 'Deliveroo clone',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'An online food delivery application with nice interfaces and a friendly experience.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactnative',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'redux',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'reactnavigation',
         color: 'pink-text-gradient',
       },
     ],
@@ -266,20 +267,20 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Uber',
+    name: 'Uber clone',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Uber provides mobility as a service/ride-hailing, food delivery/package delivery/couriers via Uber Eats and Postmates, and freight transport.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactnative',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'typescript',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'maps',
         color: 'pink-text-gradient',
       },
     ],
@@ -287,20 +288,20 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Ups',
+    name: 'Ups clone',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Ups is an American multinational shipping and receiving and supply chain management.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactnative',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'apolloclient',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'graphql',
         color: 'pink-text-gradient',
       },
     ],
@@ -310,18 +311,18 @@ const projects = [
   {
     name: 'Food App',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A comprehensive food delivery platform that allows users to choose restaurants, pick dishes, read reviews and offers curated recommendations for popular restaurants.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactnative',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'nativebase',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'redux',
         color: 'pink-text-gradient',
       },
     ],
@@ -329,20 +330,20 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Reddit',
+    name: 'Reddit clone',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A small fullstack project with the most advanced technologies: basic CRUD, authentication, forgot password, SSG and SSR, like and dislike posts, pagination posts.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'grapqhl',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'postgresql',
         color: 'pink-text-gradient',
       },
     ],
@@ -351,19 +352,18 @@ const projects = [
   },
   {
     name: 'Blog',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    description: 'A personal blog written in Typescipt with NextJs & Material UI.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'swr',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'typescript',
         color: 'pink-text-gradient',
       },
     ],
@@ -373,18 +373,18 @@ const projects = [
   {
     name: 'Learn It!',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A fullstack MERN (MongoDB, Expressjs, Reactjs, Nodejs) app using jsonwebtoken-based authentication and basic CRUD operation with RESTful API.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'expressjs',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'mongodb',
         color: 'pink-text-gradient',
       },
     ],
@@ -392,58 +392,78 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'The Band',
+    name: 'WhatsApp clone',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'Web application that enables users to instant messaging one-to-one with anyone using Google email address.',
     tags: [
       {
         name: 'nextjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'material-ui',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'typescript',
         color: 'pink-text-gradient',
       },
     ],
-    image: theBand,
+    image: whatsapp,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Shopee',
+    name: 'Tiktok clone',
     description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+      'A small reactjs web application that replicates Tiktok Interfaces with some additional 3D models.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'reactjs',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'scss',
         color: 'green-text-gradient',
       },
       {
-        name: 'css',
+        name: 'threejs',
         color: 'pink-text-gradient',
       },
     ],
-    image: shopee,
+    image: tiktok,
+    source_code_link: 'https://github.com/',
+  },
+  {
+    name: 'Neovim IDE',
+    description:
+      'A terminal-based Neovim IDE, powered by NvChad preconfiguration, written in Lua, integrated with Tmux multiplexer.',
+    tags: [
+      {
+        name: 'neovim',
+        color: 'blue-text-gradient',
+      },
+      {
+        name: 'tmux',
+        color: 'green-text-gradient',
+      },
+      {
+        name: 'nvchad',
+        color: 'pink-text-gradient',
+      },
+    ],
+    image: nvim,
     source_code_link: 'https://github.com/',
   },
   {
     name: 'Music Player',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    description: 'A Music Player application written in Vanilla Javascript and HTML/CSS.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'javascript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'html',
         color: 'green-text-gradient',
       },
       {
@@ -455,16 +475,15 @@ const projects = [
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'WhatsApp',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    name: 'Shopee clone',
+    description: 'A responsive website clone with plain HTML/CSS, works nicely on all devices.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'javascript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'html',
         color: 'green-text-gradient',
       },
       {
@@ -472,20 +491,19 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: whatsapp,
+    image: shopee,
     source_code_link: 'https://github.com/',
   },
   {
-    name: 'Neovim IDE',
-    description:
-      'A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.',
+    name: 'The Band',
+    description: 'A cloned responsive website with plain HTML/CSS and Javascript.',
     tags: [
       {
-        name: 'nextjs',
+        name: 'javascript',
         color: 'blue-text-gradient',
       },
       {
-        name: 'supabase',
+        name: 'html',
         color: 'green-text-gradient',
       },
       {
@@ -493,7 +511,7 @@ const projects = [
         color: 'pink-text-gradient',
       },
     ],
-    image: nvim,
+    image: theBand,
     source_code_link: 'https://github.com/',
   },
 ];

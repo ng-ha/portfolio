@@ -37,6 +37,7 @@ import shopee from './shopee.png';
 import music from './music.png';
 import whatsapp from './whatsapp.png';
 import nvim from './dotfile.png';
+import tiktok from './tiktok.png';
 
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
@@ -92,4 +93,5 @@ export {
   music,
   whatsapp,
   nvim,
+  tiktok,
 };
