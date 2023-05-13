@@ -1,12 +1,14 @@
 /* eslint-disable react-refresh/only-export-components */
-import { useRef, useState } from 'react';
-import { motion } from 'framer-motion';
 import emailjs from '@emailjs/browser';
+import { motion } from 'framer-motion';
+import { useRef, useState } from 'react';
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 
-import { styles } from '../styles';
-import { EarthCanvas } from './canvas';
 import { SectionWrapper } from '../hoc';
+import { styles } from '../styles';
 import { slideIn } from '../utils/motion';
+import { EarthCanvas } from './canvas';
 
 const Contact = () => {
   const formRef = useRef();
@@ -33,13 +35,13 @@ const Contact = () => {
       .then(
         () => {
           setLoading(false);
-          alert('Thank you. I will get back to you as soon as possible.');
+          toast.success('Thank you! I will get back to you as soon as possible.');
           setForm({ name: '', email: '', message: '' });
         },
         (error) => {
           setLoading(false);
           console.error(error);
-          alert('Ahh, something went wrong. Please try again.');
+          toast.error('Ohh, something went wrong. Please try again!');
         }
       );
   };
@@ -96,7 +98,7 @@ const Contact = () => {
           </button>
         </form>
       </motion.div>
-
+      <ToastContainer toastStyle={{ marginTop: '60px' }} />
       <motion.div
         variants={slideIn('right', 'tween', 0.2, 1)}
         className="xl:flex-1 xl:h-auto md:h-[550px] h-[350px]"

@@ -40,10 +40,6 @@ import {
 
 export const navLinks = [
   {
-    id: 'github',
-    title: 'Github',
-  },
-  {
     id: 'about',
     title: 'About',
   },
@@ -58,6 +54,10 @@ export const navLinks = [
   {
     id: 'contact',
     title: 'Contact',
+  },
+  {
+    id: 'github',
+    title: 'Github',
   },
 ];
 
