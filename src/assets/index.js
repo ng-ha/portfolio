@@ -42,6 +42,11 @@ import marc from './marc.jpeg';
 import thomas from './thomas.webp';
 import leonardo from './leonardo.jpeg';
 
+import expo from './tech/expo.png';
+import graphql from './tech/graphql.png';
+import reactNavigation from './tech/react-navigation.png';
+import apollo from './tech/apollo-graphql-compact.svg';
+
 import meta from './company/meta.png';
 import shopify from './company/shopify.png';
 import starbucks from './company/starbucks.png';
@@ -100,4 +105,8 @@ export {
   marc,
   thomas,
   leonardo,
+  expo,
+  graphql,
+  reactNavigation,
+  apollo,
 };

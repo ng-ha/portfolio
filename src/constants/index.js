@@ -15,7 +15,6 @@ import {
   git,
   figma,
   docker,
-  threejs,
   reactNative,
   linux,
   signal,
@@ -36,6 +35,10 @@ import {
   marc,
   thomas,
   leonardo,
+  expo,
+  graphql,
+  reactNavigation,
+  apollo,
 } from '../assets';
 
 export const navLinks = [
@@ -75,20 +78,12 @@ const services = [
     icon: backend,
   },
   {
-    title: ' IDE: Vim, VSCode',
+    title: ' IDE: Neovim, VS Code',
     icon: creator,
   },
 ];
 
 const technologies = [
-  {
-    name: 'HTML 5',
-    icon: html,
-  },
-  {
-    name: 'CSS 3',
-    icon: css,
-  },
   {
     name: 'JavaScript',
     icon: javascript,
@@ -100,6 +95,22 @@ const technologies = [
   {
     name: 'React JS',
     icon: reactjs,
+  },
+  {
+    name: 'Expo',
+    icon: expo,
+  },
+  {
+    name: 'react-navigation',
+    icon: reactNavigation,
+  },
+  {
+    name: 'graphql',
+    icon: graphql,
+  },
+  {
+    name: 'apollo',
+    icon: apollo,
   },
   {
     name: 'Redux Toolkit',
@@ -118,16 +129,8 @@ const technologies = [
     icon: mongodb,
   },
   {
-    name: 'Three JS',
-    icon: threejs,
-  },
-  {
     name: 'git',
     icon: git,
-  },
-  {
-    name: 'figma',
-    icon: figma,
   },
   {
     name: 'docker',
@@ -142,19 +145,19 @@ const experiences = [
     icon: reactjs,
     iconBg: '#383E56',
     points: [
-      'Languages & frameworks: Javascript, Typescript, ReactJs & NextJs',
-      'UI: TailwindCss, Material UI, Chakra UI, Bootstrap',
-      'State management: Redux, Swr, Apollo Client, Axios, GraphQL',
-      'Miscellaneous: react-router-dom, react-hook-form, yup ...',
+      'Languages & frameworks: JavaScript, TypeScript, ReactJs & NextJs',
+      'UI: Tailwind Css, Material UI, Chakra UI, Bootstrap',
+      'State management: Redux, Swr, Apollo Client with GraphQL',
+      'Miscellaneous: react-router-dom, axios, react-hook-form, yup ...',
     ],
   },
   {
     title: 'Backend Developer',
-    company_name: 'NodeJs',
+    company_name: 'Node.js',
     icon: nodejs,
     iconBg: '#E6DEDD',
     points: [
-      'Languages & frameworks: Javascript, Typescript, Nodejs, Express & Apollo-server, RESTful API & GraphQL',
+      'Languages & frameworks: JavaScript, TypeScript, Node.js, Express.js, Apollo Server, RESTful API & GraphQL',
       'Database: MongoDB, PostgesQL & Firebase',
       'Miscellaneous: Mongoose, Typegoose, Type-graphql, Typeorm, Express-session, Jsonwebtoken, DataLoader, Docker',
     ],
@@ -165,10 +168,10 @@ const experiences = [
     icon: reactNative,
     iconBg: '#383E56',
     points: [
-      'Languages & frameworks: Javascript, Typescript, React Native and Expo',
-      'UI: TailwindCss, NativeBase & React native elements ',
-      'Routing/navigating: @react-navigation, Expo-router',
-      'State management: Redux, Swr, Apollo Client, Axios, GraphQL',
+      'Languages & frameworks: JavaScript, TypeScript, React Native and Expo',
+      'UI: Tailwind Css, Native Base & React Native Elements ',
+      'Routing/navigating: @react-navigation, expo-router',
+      'State management: Redux, Swr, Apollo Client with GraphQL',
       'Animation/gesture: React Native Reanimated 3, React Native Gesture Handler',
       'Miscellaneous: React Native Maps & Google Places Autocomplete & Directions, Expo Web Browser, Expo Auth Session, ...',
     ],
@@ -179,7 +182,7 @@ const experiences = [
     icon: linux,
     iconBg: '#E6DEDD',
     points: [
-      'IDE: Vim & VS Code',
+      'IDE: Neovim & VS Code',
       'Skills: git, docker',
       'Write my own terminal-based Neovim IDE, powered by NvChad pre-configuration, written in Lua, integrated with Tmux multiplexer.',
     ],
@@ -233,7 +236,7 @@ const projects = [
   {
     name: 'Tinder clone',
     description:
-      'Tinder is an online dating application. Users "swipe right" to like or "swipe left" to dislike other users\' profiles. If 2 users match, they can message with each other.',
+      'Tinder is an online dating application. Users "swipe right" to like or "swipe left" to dislike other users\' profiles. If two users match, they can message each other.',
     tags: [
       {
         name: 'reactnative',
@@ -254,7 +257,7 @@ const projects = [
   {
     name: 'Deliveroo clone',
     description:
-      'A cross-platform mobile application with nice interfaces and a friendly experience, that allows users to order food online and have their food delivered to their specific location.',
+      'A cross-platform mobile application with nice interfaces and a friendly experience that allows users to order food online and have their food delivered to their specific location.',
     tags: [
       {
         name: 'reactnative',
@@ -296,7 +299,7 @@ const projects = [
   {
     name: 'Ups clone',
     description:
-      'A cross-platform mobile application, that provides shipping and receiving, supplies chain management, written in Typescript, powered by Expo.',
+      'A cross-platform mobile application that provides shipping, receiving and supply chain management, written in Typescript and powered by Expo.',
     tags: [
       {
         name: 'reactnative',
@@ -315,7 +318,7 @@ const projects = [
     source_code_link: 'https://github.com/ng-ha/ups',
   },
   {
-    name: 'Food App',
+    name: 'Food app',
     description:
       'A comprehensive food delivery platform that allows users to choose restaurants, pick dishes, read reviews and offers curated recommendations for popular restaurants.',
     tags: [
@@ -345,7 +348,7 @@ const projects = [
         color: 'blue-text-gradient',
       },
       {
-        name: 'grapqhl',
+        name: 'graphql',
         color: 'green-text-gradient',
       },
       {
@@ -359,7 +362,7 @@ const projects = [
   {
     name: 'Blog',
     description:
-      'A personal blog written in Typescipt, supports server-side rendering and static site generation powered by NextJs, styled with Material UI, fully responsive in all devices.',
+      'A personal blog written in Typescipt, supports server-side rendering and static site generation powered by Next.js, styled with Material UI, fully responsive on all devices.',
     tags: [
       {
         name: 'nextjs',
@@ -380,7 +383,7 @@ const projects = [
   {
     name: 'Learn It!',
     description:
-      'A fullstack MERN (MongoDB, Expressjs, Reactjs, Nodejs) app using jsonwebtoken-based authentication and basic CRUD operation with RESTful API.',
+      'A fullstack MERN (MongoDB, Express.js, ReactJs, Node.js) app using jsonwebtoken-based authentication and basic CRUD operations with RESTful API.',
     tags: [
       {
         name: 'reactjs',
@@ -401,7 +404,7 @@ const projects = [
   {
     name: 'WhatsApp clone',
     description:
-      'Web application that enables users to instant messaging one-to-one with anyone using Google email address.',
+      'Web application that enables users to instantly message one-to-one with anyone using Google email address.',
     tags: [
       {
         name: 'nextjs',
@@ -422,7 +425,7 @@ const projects = [
   {
     name: 'Tiktok clone',
     description:
-      'A small reactjs web application that replicates Tiktok interfaces with some additional 3D models.',
+      'A small ReactJs web application that replicates Tiktok interfaces with some additional 3D models.',
     tags: [
       {
         name: 'reactjs',
@@ -462,8 +465,8 @@ const projects = [
     source_code_link: 'https://github.com/ng-ha/dotfiles',
   },
   {
-    name: 'Music Player',
-    description: 'A Music Player application written in Vanilla Javascript and HTML/CSS.',
+    name: 'Music player',
+    description: 'A music player application written in vanilla JavaScript and HTML/CSS.',
     tags: [
       {
         name: 'javascript',
@@ -502,8 +505,8 @@ const projects = [
     source_code_link: 'https://github.com/ng-ha/shopee',
   },
   {
-    name: 'The Band',
-    description: 'A cloned responsive website with plain HTML/CSS and Javascript.',
+    name: 'The band',
+    description: 'A cloned responsive website with plain HTML/CSS and JavaScript.',
     tags: [
       {
         name: 'javascript',
