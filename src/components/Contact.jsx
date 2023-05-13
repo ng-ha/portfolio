@@ -4,6 +4,7 @@ import { motion } from 'framer-motion';
 import { useRef, useState } from 'react';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import * as EmailValidator from 'email-validator';
 
 import { SectionWrapper } from '../hoc';
 import { styles } from '../styles';
@@ -19,6 +20,26 @@ const Contact = () => {
   const handleSubmit = (e) => {
     e.preventDefault();
     setLoading(true);
+    if (!form.name) {
+      toast.error('Please, enter your name!');
+      setLoading(false);
+      return;
+    }
+    if (!form.email) {
+      toast.error('Please, enter your email!');
+      setLoading(false);
+      return;
+    }
+    if (!EmailValidator.validate(form.email)) {
+      toast.error('Invalid email!');
+      setLoading(false);
+      return;
+    }
+    if (!form.message) {
+      toast.error('Please, enter your message!');
+      setLoading(false);
+      return;
+    }
     emailjs
       .send(
         import.meta.env.VITE_APP_EMAILJS_SERVICE_ID,
@@ -70,7 +91,7 @@ const Contact = () => {
           <label className="flex flex-col">
             <span className="text-white font-medium mb-4">Your email</span>
             <input
-              type="email"
+              type="text"
               name="email"
               value={form.email}
               onChange={handleChange}
