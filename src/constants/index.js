@@ -170,7 +170,7 @@ const experiences = [
     points: [
       'IDE: Vim & VS Code',
       'Skills: git, docker',
-      'Write my own terminal-based Neovim IDE, powered by NvChad preconfiguration, written in Lua, integrated with Tmux multiplexer.',
+      'Write my own terminal-based Neovim IDE, powered by NvChad pre-configuration, written in Lua, integrated with Tmux multiplexer.',
     ],
   },
 ];
@@ -222,7 +222,7 @@ const projects = [
       },
     ],
     image: signal,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/signal',
   },
   {
     name: 'Tinder clone',
@@ -243,12 +243,12 @@ const projects = [
       },
     ],
     image: tinder,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/tinder',
   },
   {
     name: 'Deliveroo clone',
     description:
-      'An online food delivery application with nice interfaces and a friendly experience.',
+      'A cross-platform mobile application with nice interfaces and a friendly experience, that allows users to order food online and have their food delivered to their specific location.',
     tags: [
       {
         name: 'reactnative',
@@ -264,7 +264,7 @@ const projects = [
       },
     ],
     image: deliveroo,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/deliveroo',
   },
   {
     name: 'Uber clone',
@@ -285,12 +285,12 @@ const projects = [
       },
     ],
     image: uber,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/uber',
   },
   {
     name: 'Ups clone',
     description:
-      'Ups is an American multinational shipping and receiving and supply chain management.',
+      'A cross-platform mobile application, that provides shipping and receiving, supplies chain management, written in Typescript, powered by Expo.',
     tags: [
       {
         name: 'reactnative',
@@ -306,7 +306,7 @@ const projects = [
       },
     ],
     image: ups,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/ups',
   },
   {
     name: 'Food App',
@@ -327,7 +327,7 @@ const projects = [
       },
     ],
     image: foodApp,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/food-app',
   },
   {
     name: 'Reddit clone',
@@ -348,11 +348,12 @@ const projects = [
       },
     ],
     image: reddit,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/reddit',
   },
   {
     name: 'Blog',
-    description: 'A personal blog written in Typescipt with NextJs & Material UI.',
+    description:
+      'A personal blog written in Typescipt, supports server-side rendering and static site generation powered by NextJs, styled with Material UI, fully responsive in all devices.',
     tags: [
       {
         name: 'nextjs',
@@ -368,7 +369,7 @@ const projects = [
       },
     ],
     image: blogNext,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/blog-nextjs',
   },
   {
     name: 'Learn It!',
@@ -389,7 +390,7 @@ const projects = [
       },
     ],
     image: learnIt,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/learnit',
   },
   {
     name: 'WhatsApp clone',
@@ -410,12 +411,12 @@ const projects = [
       },
     ],
     image: whatsapp,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/whatsapp',
   },
   {
     name: 'Tiktok clone',
     description:
-      'A small reactjs web application that replicates Tiktok Interfaces with some additional 3D models.',
+      'A small reactjs web application that replicates Tiktok interfaces with some additional 3D models.',
     tags: [
       {
         name: 'reactjs',
@@ -431,12 +432,12 @@ const projects = [
       },
     ],
     image: tiktok,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/tiktok',
   },
   {
     name: 'Neovim IDE',
     description:
-      'A terminal-based Neovim IDE, powered by NvChad preconfiguration, written in Lua, integrated with Tmux multiplexer.',
+      'A terminal-based Neovim IDE, powered by NvChad pre-configuration, written in Lua, integrated with Tmux multiplexer.',
     tags: [
       {
         name: 'neovim',
@@ -452,7 +453,7 @@ const projects = [
       },
     ],
     image: nvim,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/dotfiles',
   },
   {
     name: 'Music Player',
@@ -472,7 +473,7 @@ const projects = [
       },
     ],
     image: music,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/music-player',
   },
   {
     name: 'Shopee clone',
@@ -492,7 +493,7 @@ const projects = [
       },
     ],
     image: shopee,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/shopee',
   },
   {
     name: 'The Band',
@@ -512,7 +513,7 @@ const projects = [
       },
     ],
     image: theBand,
-    source_code_link: 'https://github.com/',
+    source_code_link: 'https://github.com/ng-ha/the-band',
   },
 ];
 
