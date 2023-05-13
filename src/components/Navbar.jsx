@@ -35,7 +35,7 @@ const Navbar = () => {
               onClick={() => setActive(link.title)}
             >
               {link.id === 'github' ? (
-                <a href="https://github.com/ng-ha" target="_blank" rel="noreferrer">
+                <a href="https://github.com/ng-ha" target="_blank" rel="noopener noreferrer">
                   {link.title}
                 </a>
               ) : (
